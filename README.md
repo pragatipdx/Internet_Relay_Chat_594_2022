@@ -11,4 +11,10 @@ Commands:
 To Create a Room: createroom <ROOMNAME/> 
 To allow a client to join a room: joinroom <ROOMNAME/>      
 To send a message in the room: messageroom <ROOMNAME/> <MESSAGE/> 
+To list all members in the room: listmembers <ROOMNAME/>
+To list all rooms: listrooms
+To leave the room: leaveroom <ROOMNAME/>
+To send private messages to another client: private <CLIENTNAME/> <MESSAGE/>
+To disconnect from the server: quit
+To disconnect server from all clients: quit
    
