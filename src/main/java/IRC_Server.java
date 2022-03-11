@@ -32,8 +32,9 @@ public class IRC_Server {
 
     public static void main(String[] args) throws Exception {
 
-        Properties prop = readPropertiesFile(System.getProperty("user.dir")+"\\src\\main\\resources\\connection.properties");
-        int port= Integer.valueOf(prop.getProperty("default_port"));
+    //     Properties prop = readPropertiesFile(System.getProperty("user.dir")+"\\resources\\connection.properties");
+    //    int port= Integer.valueOf(prop.getProperty("default_port"));
+        int port=8181;
         ServerSocket server_sock = new ServerSocket(port);
         System.out.println("Server started on port " + port);
         System.out.println("Server running....");

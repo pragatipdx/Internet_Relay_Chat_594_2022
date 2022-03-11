@@ -35,8 +35,9 @@ public class IRC_Client {
 
     public static void main(String[] args) throws Exception{
 
-        Properties prop = readPropertiesFile(System.getProperty("user.dir")+"\\src\\main\\resources\\connection.properties");
-        int portNumber= Integer.valueOf(prop.getProperty("default_port"));
+     //   Properties prop = readPropertiesFile(System.getProperty("user.dir")+"\\resources\\connection.properties");
+     //   int portNumber= Integer.valueOf(prop.getProperty("default_port"));
+        int portNumber=8181;
         socket = new Socket("localhost", portNumber);
 
         output_stream = socket.getOutputStream();
